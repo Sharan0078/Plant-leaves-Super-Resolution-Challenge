@@ -13,6 +13,18 @@ The entire network was trained completely from scratch without using pretrained 
 
 The training pipeline combines reconstruction and adversarial losses to balance pixel-level accuracy with visual quality. Since the competition leaderboard evaluates predictions using Mean Absolute Error (MAE), the model emphasizes spatial accuracy and faithful reconstruction rather than generating unrealistic textures.
 
+## Dataset
+The dataset used for this project is not included in this repository due to its large size (several GBs).
+
+Dataset Link:  
+https://www.kaggle.com/competitions/plant-leaves-super-resolution-challenge/data
+
+The dataset contains:
+- Low-resolution degraded crop leaf images (32×32)
+- High-resolution ground-truth images (128×128)
+
+Please download the dataset from the Kaggle competition page before training or running the notebook.
+
 ## Key Features
 - Blind 4× super-resolution
 - Simultaneous denoising and upscaling
